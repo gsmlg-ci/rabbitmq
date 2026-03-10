@@ -1,7 +1,6 @@
 FROM rabbitmq:4-management
 
-LABEL org.opencontainers.image.source="https://github.com/gsmlg-dev/Foundation"
-LABEL org.opencontainers.image.source.path="/docker/rabbitmq"
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/rabbitmq"
 LABEL org.opencontainers.image.title="RabbitMQ Server"
 LABEL org.opencontainers.image.authors="Jonathan Gao <gsmlg.com@gmail.com>"
 LABEL org.opencontainers.image.description="RabbitMQ is a reliable and mature messaging and streaming broker, which is easy to deploy on cloud environments, on-premises, and on your local machine. It is currently used by millions worldwide."
